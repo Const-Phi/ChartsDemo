@@ -10,6 +10,6 @@ namespace ChartsDemos
 {
     public abstract class BaseChart : Canvas
     {
-
+        public DataProvider Provider { get; protected set; }
     }
 }
